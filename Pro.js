@@ -6,11 +6,11 @@
 *******************************
 
 [rewrite_local]
-
 #彩虹组件
 https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Hello-Fly/qx/main/Pro.js
 
-MITM = buy.itunes.apple.com
+[mitm]
+hostname = buy.itunes.apple.com
 
 */
 
