@@ -38,12 +38,34 @@ obj = {
     "original_purchase_date_ms": "1602295810000",
     "original_purchase_date_pst": "2020-10-10 10:10:10 America/Los_Angeles",
     "original_application_version": "433",
-    "in_app": [{
+    "in_app": [
+      {
+        "quantity": "1",
+        "product_id": "dev.sanjin.WasteCat.PermanentVip",
+        "transaction_id": "888886666699999",
+        "original_transaction_id": "888886666699999",
+        "purchase_date": "2011-11-11 11:11:11 Etc/GMT",
+        "purchase_date_ms": "1602295810000",
+        "purchase_date_pst": "2020-10-10 10:10:10 America/Los_Angeles",
+        "original_purchase_date": "2020-10-10 10:10:10 Etc/GMT",
+        "original_purchase_date_ms": "1602295810000",
+        "original_purchase_date_pst": "2020-10-10 10:10:10 America/Los_Angeles",
+        "expires_date": "2222-02-22 22:22:22 Etc/GMT",
+        "expires_date_ms": "7956814942000",
+        "expires_date_pst": "2222-02-22 22:22:22 America/Los_Angeles",
+        "web_order_line_item_id": "888886666699999",
+        "is_trial_period": "true",
+        "is_in_intro_offer_period": "false"
+      }
+    ]
+  },
+  "latest_receipt_info": [
+    {
       "quantity": "1",
       "product_id": "dev.sanjin.WasteCat.PermanentVip",
       "transaction_id": "888886666699999",
       "original_transaction_id": "888886666699999",
-      "purchase_date": "2011-11-11 11:11:11 Etc/GMT",
+      "purchase_date": "2020-10-10 10:10:10 Etc/GMT",
       "purchase_date_ms": "1602295810000",
       "purchase_date_pst": "2020-10-10 10:10:10 America/Los_Angeles",
       "original_purchase_date": "2020-10-10 10:10:10 Etc/GMT",
@@ -54,35 +76,19 @@ obj = {
       "expires_date_pst": "2222-02-22 22:22:22 America/Los_Angeles",
       "web_order_line_item_id": "888886666699999",
       "is_trial_period": "true",
-      "is_in_intro_offer_period": "false"
-    }]
-  },
-  "latest_receipt_info": [{
-    "quantity": "1",
-    "product_id": "dev.sanjin.WasteCat.PermanentVip",
-    "transaction_id": "888886666699999",
-    "original_transaction_id": "888886666699999",
-    "purchase_date": "2020-10-10 10:10:10 Etc/GMT",
-    "purchase_date_ms": "1602295810000",
-    "purchase_date_pst": "2020-10-10 10:10:10 America/Los_Angeles",
-    "original_purchase_date": "2020-10-10 10:10:10 Etc/GMT",
-    "original_purchase_date_ms": "1602295810000",
-    "original_purchase_date_pst": "2020-10-10 10:10:10 America/Los_Angeles",
-    "expires_date": "2222-02-22 22:22:22 Etc/GMT",
-    "expires_date_ms": "7956814942000",
-    "expires_date_pst": "2222-02-22 22:22:22 America/Los_Angeles",
-    "web_order_line_item_id": "888886666699999",
-    "is_trial_period": "true",
-    "is_in_intro_offer_period": "false",
-    "subscription_group_identifier": "99999999"
-  }],
+      "is_in_intro_offer_period": "false",
+      "subscription_group_identifier": "99999999"
+    }
+  ],
   "latest_receipt": "5L2c6ICFQGtpbmc=",
-  "pending_renewal_info": [{
-    "auto_renew_product_id": "dev.sanjin.WasteCat.PermanentVip",
-    "original_transaction_id": "888886666699999",
-    "product_id": "dev.sanjin.WasteCat.PermanentVip",
-    "auto_renew_status": "1"
-  }]
-};
+  "pending_renewal_info": [
+    {
+      "auto_renew_product_id": "dev.sanjin.WasteCat.PermanentVip",
+      "original_transaction_id": "888886666699999",
+      "product_id": "dev.sanjin.WasteCat.PermanentVip",
+      "auto_renew_status": "1"
+    }
+  ]
+}
 
 $done({body:JSON.stringify(obj)});
