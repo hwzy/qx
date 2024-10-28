@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Hello-Fly/qx/main/Pro.js
+https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/hwzy/qx/refs/heads/main/Pro.js
 
 [mitm]
 hostname = buy.itunes.apple.com
